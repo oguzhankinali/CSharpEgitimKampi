@@ -100,10 +100,10 @@ namespace _01_MainSubjects
             Console.Write("Lütfen Cinsiyetinizi Giriniz: ");
             gender = char.Parse(Console.ReadLine());
             Console.WriteLine("Cinsiyetiniz: " + gender);
-            //burada da erkek kadın yazamıyorsun yine E K yazıyorsun string'i char'a çeviriyor aslında
+            //burada da erkek kadın yazamıyorsun yine E K yazıyorsun string'i char'a çeviriyor aslında //
             #endregion
 
-
+      
 
 
 
