@@ -2,4 +2,5 @@
   <Project Path="01_MainSubjects/01_MainSubjects.csproj" Id="98e179a6-d8ea-4053-a1e5-4756c32c5d94" />
   <Project Path="03_MakingDecision/03_MakingDecisionAndLoops.csproj" Id="7e99a38f-e0dd-4e80-9390-2b511b6a4aa4" />
   <Project Path="06_Arrays/06_Arrays.csproj" Id="acaf992c-3c73-4904-a2fb-0f107b0f6f34" />
+  <Project Path="07_ForeachLoop/07_ForeachLoop.csproj" Id="3e592f3f-3a66-4e9c-9c78-e9646ac56ce0" />
 </Solution>
