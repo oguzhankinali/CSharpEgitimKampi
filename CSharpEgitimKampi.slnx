@@ -4,4 +4,7 @@
   <Project Path="06_Arrays/06_Arrays.csproj" Id="acaf992c-3c73-4904-a2fb-0f107b0f6f34" />
   <Project Path="07_ForeachLoop/07_ForeachLoop.csproj" Id="3e592f3f-3a66-4e9c-9c78-e9646ac56ce0" />
   <Project Path="08_Methods/08_Methods.csproj" Id="765f530e-6d48-4ca8-a13f-1ca75d4a03d9" />
+  <Project Path="09_012_ KuryeClass/09_012_ KuryeClass.csproj" Id="7de47c6f-3fd0-42cc-82a7-b79ab72201fd" />
+  <Project Path="09_01_Class/09_01_Class.csproj" Id="8bfe7e8c-a4e0-4fb9-a1b0-24788cfc7f69" />
+  <Project Path="09_DatabaseProject/09_02_DatabaseProject.csproj" Id="0538ca02-edb2-49c5-9ffd-60d5a12da2e3" />
 </Solution>

@@ -103,10 +103,24 @@ namespace _01_MainSubjects
             //burada da erkek kadın yazamıyorsun yine E K yazıyorsun string'i char'a çeviriyor aslında //
             #endregion
 
-      
 
 
+            //var tipi: c# değişkenin tipini kendi belirliyor.
+            var y = 5.222222;
+            Console.WriteLine(typeof(y));
 
+            //!!!!
+            // mesela 
+            //Console.WriteLine("x=0 y=4", x,y); dediğimiz zaman x , y parametre olarak gidiyor hala integer kalır
+            //Console.WriteLine("x=0 y=4"+ x + y); dediğimiz zaman hepsini string e çevirir ve string olarak yazdırır
+
+            //composite formatting:
+            int g = 5;
+            int h = 7;
+            Console.WriteLine("g: {0} h:{1}", g,h); // dediğimiz zaman g ve h parametre olarak gidiyor ve integer olarak kalıyor. yani stringe çevrilmiyor. yani g:5 h:7 olarak çıkar konsolda
+
+            //ternary(üçlü) koşul operatörü: 
+            int z = (g > 10) ? 100 : 0; // yani diyor ki g 10'dan buyukse z'nin değer 100, değilse z'nin değeri 0 olsun.
 
 
         }

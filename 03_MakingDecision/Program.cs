@@ -91,6 +91,8 @@ namespace _03_MakingDecision
             #endregion
 
             #region loops
+            //break: döngüyü tamamen bitirip dışarı çıkar.
+            //continue: döngünün o turunu atlayıp bir sonraki tura geçer.
 
             ////For(x;y;z) x: başlangıç y: bitiş z: artış-azalış
 
@@ -138,6 +140,62 @@ namespace _03_MakingDecision
 
             //    Console.WriteLine();
             //}
+
+            string s = "Merhaba";
+
+            Console.WriteLine(s.Length);
+            Console.WriteLine(s.ToUpper());
+            Console.WriteLine(s.ToLower());
+
+            //contains: bir stringin içinde başka bir stringin olup olmadığını kontrol eder. True veya False döner.
+            string text = "C# string metodları";
+            Console.WriteLine(text.Contains("string"));
+
+
+            //startsWith: bir stringin belirli bir string ile başlayıp başlamadığını kontrol eder. True veya False döner.
+            string url = "https://www.example.com";
+            Console.WriteLine(url.StartsWith("https://"));
+            Console.WriteLine(url.EndsWith("https://"));
+
+            //Substring: bir stringin belirli bir kısmını almak için kullanılır. Başlangıç indexi ve uzunluk parametreleri alır.
+            string tarih = "2024-06-15";
+            string yil = tarih.Substring(0, 4); // 0. indexten başla ve 4 karakter al
+            Console.WriteLine(yil);
+            string ay = tarih.Substring(5, 2); // 5. indexten başla ve 2 karakter al
+            Console.WriteLine(ay);
+
+
+            //replace: bir stringin belirli bir kısmını başka bir string ile değiştirmek için kullanılır. İlk parametre değiştirilecek kısmı, ikinci parametre ise yeni değeri belirtir.
+            string metin = "Merhaba dünya";
+            Console.WriteLine(metin.Replace("Dünya", "C#"));
+            Console.WriteLine(metin.Replace("a","q")); // a ları q ile değiştirir
+
+
+            //split: bir stringi belirli bir karaktere göre parçalara ayırmak için kullanılır. Parametre olarak ayırıcı karakteri alır ve string dizisi döner.
+
+            string csv = "Ali, Veli, Ayşe";
+            string[] isimler = csv.Split(','); // yani , e göre ayır diziye at
+            Console.WriteLine(isimler.Length);
+
+
+            //Join: bir string dizisini belirli bir karakter ile birleştirmek için kullanılır. İlk parametre olarak birleştirici karakteri alır ve tek bir string döner.
+
+            string[] kelimeler = { "C#", "C++", "Python" };
+            Console.WriteLine(string.Join(" - ", kelimeler));
+
+
+            //Equals: iki stringin eşit olup olmadığını kontrol etmek için kullanılır. True veya False döner.
+            string s1 = "Admin";
+            string s2 = "admin";
+            Console.WriteLine(s1.Equals(s2));
+
+            //Trim(): bir stringin başındaki ve sonundaki boşlukları temizlemek için kullanılır. Yeni bir string döner.
+            string ad = "       Batuhan    ";
+            Console.WriteLine(ad.Trim());
+
+
+
+
 
 
 
