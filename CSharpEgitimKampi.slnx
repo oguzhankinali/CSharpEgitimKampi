@@ -6,6 +6,10 @@
   <Project Path="08_Methods/08_Methods.csproj" Id="765f530e-6d48-4ca8-a13f-1ca75d4a03d9" />
   <Project Path="09_012_ KuryeClass/09_012_ KuryeClass.csproj" Id="7de47c6f-3fd0-42cc-82a7-b79ab72201fd" />
   <Project Path="09_013_Class_Enum_Enumeration/09_013_Class_Enum_Enumeration.csproj" Id="6cfafe4e-ce8e-4317-b688-550f0def46f5" />
+  <Project Path="09_014_Encapsulation/09_014_Encapsulation.csproj" Id="cde23c29-3351-4778-8cac-032a9bd2d0f4" />
+  <Project Path="09_015_Inheritance/09_015_Inheritance.csproj" Id="cee34e1a-66b2-4d5c-8f31-6aa0c3907795" />
+  <Project Path="09_016_VirtualOverride/09_016_VirtualOverride.csproj" Id="0b0cdf7d-fcf5-4ecc-81d4-f8a378018893" />
   <Project Path="09_01_Class/09_01_Class.csproj" Id="8bfe7e8c-a4e0-4fb9-a1b0-24788cfc7f69" />
   <Project Path="09_DatabaseProject/09_02_DatabaseProject.csproj" Id="0538ca02-edb2-49c5-9ffd-60d5a12da2e3" />
+  <Project Path="AbstractClass/09_017_AbstractClass.csproj" Id="0bba6d4f-634f-4e76-9902-2cb09692eeea" />
 </Solution>
