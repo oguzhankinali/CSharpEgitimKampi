@@ -2,7 +2,7 @@
 
 This repository contains my step-by-step progress, hands-on laboratory work, and projects developed during the C# & .NET bootcamp. It is structured chronologically to showcase the transition from basic programming fundamentals to advanced Object-Oriented Programming (OOP) architectures and database integrations.
 
-## 🛠️ Technologies & Skills Covered
+##  Technologies & Skills Covered
 
 * **Language:** C# (.NET Framework & .NET Core syntax)
 * **Core Concepts:** Data Types, Control Flow, Loops, Type Casting, Built-in String Operations
@@ -10,6 +10,5 @@ This repository contains my step-by-step progress, hands-on laboratory work, and
 * **Advanced C#:** Lambda Expressions, Collections (`List<T>`)
 * **Database Integration:** ADO.NET, MS SQL Server Database Operations
 
-## 📂 Repository Structure
 
-The projects are ordered from `01` to `24` to reflect the learning curriculum. Each directory focuses on a specific programming principle or functional mini-project.
+
