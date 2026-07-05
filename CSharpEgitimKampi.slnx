@@ -9,7 +9,15 @@
   <Project Path="09_014_Encapsulation/09_014_Encapsulation.csproj" Id="cde23c29-3351-4778-8cac-032a9bd2d0f4" />
   <Project Path="09_015_Inheritance/09_015_Inheritance.csproj" Id="cee34e1a-66b2-4d5c-8f31-6aa0c3907795" />
   <Project Path="09_016_VirtualOverride/09_016_VirtualOverride.csproj" Id="0b0cdf7d-fcf5-4ecc-81d4-f8a378018893" />
+  <Project Path="09_018_Interface/09_018_Interface.csproj" Id="8cfc6cb1-2950-415f-8d8f-a7da314c50f9" />
+  <Project Path="09_019_Polymorphism/09_019_Polymorphism.csproj" Id="61c4ed85-5c8b-430a-b9b1-c4c568004125" />
   <Project Path="09_01_Class/09_01_Class.csproj" Id="8bfe7e8c-a4e0-4fb9-a1b0-24788cfc7f69" />
+  <Project Path="09_021_List_Add_Remove_Clear/09_021_List_Add_Remove_Clear.csproj" Id="dbb5ddaf-dbfa-4ae0-ba8e-3e758d49f956" />
   <Project Path="09_DatabaseProject/09_02_DatabaseProject.csproj" Id="0538ca02-edb2-49c5-9ffd-60d5a12da2e3" />
+  <Project Path="11_Lambda/11_Lambda.csproj" Id="98f7d035-bf0f-4dfc-ae88-aaaa0da84983" />
+  <Project Path="12_Dosyalama_Interface Based Polymorphism/12_Dosyalama_Interface Based Polymorphism Örneği.csproj" Id="c415fb71-bf25-47f6-9145-617cce8ffac2" />
   <Project Path="AbstractClass/09_017_AbstractClass.csproj" Id="0bba6d4f-634f-4e76-9902-2cb09692eeea" />
+  <Project Path="Akıllı Ev - IoT Yönetim Sistemi/Akıllı Ev - IoT Yönetim Sistemi.csproj" Id="4f590671-7ce3-4d81-a221-de2143585dae" />
+  <Project Path="Interface - Polymorphism - Abstract Class Örnek/Interface - Polymorphism - Abstract Class Örnek.csproj" Id="e7e714cb-b182-4d44-96c5-19ae9b0279f6" />
+  <Project Path="RPG_Game/RPG_Game.csproj" Id="51d009de-1c0f-40d9-9741-8884395a6e4a" />
 </Solution>
