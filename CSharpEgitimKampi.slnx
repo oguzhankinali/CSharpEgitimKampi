@@ -16,8 +16,4 @@
   <Project Path="09_DatabaseProject/09_02_DatabaseProject.csproj" Id="0538ca02-edb2-49c5-9ffd-60d5a12da2e3" />
   <Project Path="11_Lambda/11_Lambda.csproj" Id="98f7d035-bf0f-4dfc-ae88-aaaa0da84983" />
   <Project Path="12_Dosyalama_Interface Based Polymorphism/12_Dosyalama_Interface Based Polymorphism Örneği.csproj" Id="c415fb71-bf25-47f6-9145-617cce8ffac2" />
-  <Project Path="AbstractClass/09_017_AbstractClass.csproj" Id="0bba6d4f-634f-4e76-9902-2cb09692eeea" />
-  <Project Path="Akıllı Ev - IoT Yönetim Sistemi/Akıllı Ev - IoT Yönetim Sistemi.csproj" Id="4f590671-7ce3-4d81-a221-de2143585dae" />
-  <Project Path="Interface - Polymorphism - Abstract Class Örnek/Interface - Polymorphism - Abstract Class Örnek.csproj" Id="e7e714cb-b182-4d44-96c5-19ae9b0279f6" />
-  <Project Path="RPG_Game/RPG_Game.csproj" Id="51d009de-1c0f-40d9-9741-8884395a6e4a" />
 </Solution>

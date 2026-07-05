@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{51D009DE-1C0F-40D9-9741-8884395A6E4A}</ProjectGuid>
+    <ProjectGuid>{61C4ED85-5C8B-430A-B9B1-C4C568004125}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>RPG_Game</RootNamespace>
-    <AssemblyName>RPG_Game</AssemblyName>
+    <RootNamespace>_09_019_Polymorphism</RootNamespace>
+    <AssemblyName>09_019_Polymorphism</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0BBA6D4F-634F-4E76-9902-2CB09692EEEA}</ProjectGuid>
+    <ProjectGuid>{DBB5DDAF-DBFA-4AE0-BA8E-3E758D49F956}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractClass</RootNamespace>
-    <AssemblyName>AbstractClass</AssemblyName>
+    <RootNamespace>_09_021_List_Add_Remove_Clear</RootNamespace>
+    <AssemblyName>09_021_List_Add_Remove_Clear</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

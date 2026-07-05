@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Interface - Polymorphism - Abstract Class Örnek")]
+[assembly: AssemblyTitle("09_021_List_Add_Remove_Clear")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Interface - Polymorphism - Abstract Class Örnek")]
+[assembly: AssemblyProduct("09_021_List_Add_Remove_Clear")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e7e714cb-b182-4d44-96c5-19ae9b0279f6")]
+[assembly: Guid("dbb5ddaf-dbfa-4ae0-ba8e-3e758d49f956")]
 
 // Version information for an assembly consists of the following four values:
 //

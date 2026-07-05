@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -26,10 +27,21 @@ namespace _09_DatabaseProject
             tableNumber= Console.ReadLine();
             Console.WriteLine("---------------------------------------------------------------");
 
-            SqlConnection connection = new SqlConnection("Data Source=.;initial Catalog=EgitimKampiDB;integrated security=true");
+            SqlConnection connection = new SqlConnection("Data Source=.;Initial Catalog=EgitimKampiDB;Integrated Security=True;TrustServerCertificate=True");
             connection.Open();
-            SqlCommand command=new SqlCommand("")
+            SqlCommand command = new SqlCommand("Select * From TblCategory", connection);
+            SqlDataAdapter adapter = new SqlDataAdapter(command);
+            DataTable dataTable = new DataTable();
+            adapter.Fill(dataTable);
 
+             foreach(DataRow row in dataTable.Rows)
+            {
+                foreach(var item in row.ItemArray)
+                {
+                    Console.WriteLine(item.ToString());
+                }
+            }
+             Console.WriteLine();
 
 
         }
