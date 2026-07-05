@@ -4,16 +4,20 @@
   <Project Path="06_Arrays/06_Arrays.csproj" Id="acaf992c-3c73-4904-a2fb-0f107b0f6f34" />
   <Project Path="07_ForeachLoop/07_ForeachLoop.csproj" Id="3e592f3f-3a66-4e9c-9c78-e9646ac56ce0" />
   <Project Path="08_Methods/08_Methods.csproj" Id="765f530e-6d48-4ca8-a13f-1ca75d4a03d9" />
-  <Project Path="09_012_ KuryeClass/09_012_ KuryeClass.csproj" Id="7de47c6f-3fd0-42cc-82a7-b79ab72201fd" />
-  <Project Path="09_013_Class_Enum_Enumeration/09_013_Class_Enum_Enumeration.csproj" Id="6cfafe4e-ce8e-4317-b688-550f0def46f5" />
-  <Project Path="09_014_Encapsulation/09_014_Encapsulation.csproj" Id="cde23c29-3351-4778-8cac-032a9bd2d0f4" />
-  <Project Path="09_015_Inheritance/09_015_Inheritance.csproj" Id="cee34e1a-66b2-4d5c-8f31-6aa0c3907795" />
-  <Project Path="09_016_VirtualOverride/09_016_VirtualOverride.csproj" Id="0b0cdf7d-fcf5-4ecc-81d4-f8a378018893" />
-  <Project Path="09_018_Interface/09_018_Interface.csproj" Id="8cfc6cb1-2950-415f-8d8f-a7da314c50f9" />
-  <Project Path="09_019_Polymorphism/09_019_Polymorphism.csproj" Id="61c4ed85-5c8b-430a-b9b1-c4c568004125" />
-  <Project Path="09_01_Class/09_01_Class.csproj" Id="8bfe7e8c-a4e0-4fb9-a1b0-24788cfc7f69" />
-  <Project Path="09_021_List_Add_Remove_Clear/09_021_List_Add_Remove_Clear.csproj" Id="dbb5ddaf-dbfa-4ae0-ba8e-3e758d49f956" />
-  <Project Path="09_DatabaseProject/09_02_DatabaseProject.csproj" Id="0538ca02-edb2-49c5-9ffd-60d5a12da2e3" />
-  <Project Path="11_Lambda/11_Lambda.csproj" Id="98f7d035-bf0f-4dfc-ae88-aaaa0da84983" />
-  <Project Path="12_Dosyalama_Interface Based Polymorphism/12_Dosyalama_Interface Based Polymorphism Örneği.csproj" Id="c415fb71-bf25-47f6-9145-617cce8ffac2" />
+  <Project Path="09_ClassFundamentals/09_ClassFundamentals.csproj" Id="8bfe7e8c-a4e0-4fb9-a1b0-24788cfc7f69" />
+  <Project Path="10_KuryeClass/10_KuryeClass.csproj" Id="7de47c6f-3fd0-42cc-82a7-b79ab72201fd" />
+  <Project Path="11_Enums/11_Enums.csproj" Id="6cfafe4e-ce8e-4317-b688-550f0def46f5" />
+  <Project Path="12_Encapsulation/12_Encapsulation.csproj" Id="cde23c29-3351-4778-8cac-032a9bd2d0f4" />
+  <Project Path="13_AbstractClass/13_AbstractClass.csproj" Id="0bba6d4f-634f-4e76-9902-2cb09692eeea" />
+  <Project Path="14_Inheritance/14_Inheritance.csproj" Id="cee34e1a-66b2-4d5c-8f31-6aa0c3907795" />
+  <Project Path="15_VirtualOverride/15_VirtualOverride.csproj" Id="0b0cdf7d-fcf5-4ecc-81d4-f8a378018893" />
+  <Project Path="16_Interface/16_Interface.csproj" Id="8cfc6cb1-2950-415f-8d8f-a7da314c50f9" />
+  <Project Path="17_Polymorphism/17_Polymorphism.csproj" Id="61c4ed85-5c8b-430a-b9b1-c4c568004125" />
+  <Project Path="18_ListCollections/18_ListCollections.csproj" Id="dbb5ddaf-dbfa-4ae0-ba8e-3e758d49f956" />
+  <Project Path="19_Lambda/19_Lambda.csproj" Id="98f7d035-bf0f-4dfc-ae88-aaaa0da84983" />
+  <Project Path="20_InterfacePolymorphismExample/20_InterfacePolymorphismExample.csproj" Id="e7e714cb-b182-4d44-96c5-19ae9b0279f6" />
+  <Project Path="21_Smarthome_IoT/21_Smarthome_IoT.csproj" Id="4f590671-7ce3-4d81-a221-de2143585dae" />
+  <Project Path="22_DatabaseProject/22_DatabaseProject.csproj" Id="0538ca02-edb2-49c5-9ffd-60d5a12da2e3" />
+  <Project Path="23_RPG_Game/23_RPG_Game.csproj" Id="51d009de-1c0f-40d9-9741-8884395a6e4a" />
+  <Project Path="24_Dosyalama_Interface_Based_Polymorphism/24_Dosyalama_Interface_Based_Polymorphism.csproj" Id="c415fb71-bf25-47f6-9145-617cce8ffac2" />
 </Solution>
