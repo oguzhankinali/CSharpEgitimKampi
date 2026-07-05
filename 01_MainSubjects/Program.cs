@@ -20,7 +20,7 @@ namespace _01_MainSubjects
             //Console.WriteLine("WriteLine sayesinde önceki satır alt satıra geçti");
             //Console.Read(); // bu satırın amacı programın kapanmasını engellemek
             //                // ama vs 2026 surumunde bunu yazmaya gerek yok gibi sanırım direkt console.write ile artık konsol hemen acılıp kapanmmıyor. 
-            //                // ama bu arada eğer sen console.read eklersen konsolu kapatmak için enter'a basman gerekir.
+            //                // ama bu arada eğer sen console.read eklersen konsolu kapatmak için enter'a basman gerekir. //
             #endregion
             #region Değişkenler
             // değişken(variable): geçici olarak ram'de tutulan ve veriler üzerinde işlem yapmamızı sağlayan programlama değerleridir
