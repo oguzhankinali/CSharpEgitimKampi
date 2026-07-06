@@ -75,6 +75,112 @@ using System.Threading.Tasks;
 
 #endregion
 
+#region KAPSÜLLEME (ENCAPSULATION) & PROPERTY DERİN KONU ANLATIMI
+
+/*
+=======================================================================================
+                        KAPSÜLLEME (ENCAPSULATION) & PROPERTY
+=======================================================================================
+
+1. ENCAPSULATION (KAPSÜLLEME) NEDİR?
+   * Bir sınıfın içindeki verileri (field/değişkenleri) 'private' yaparak dış dünyaya 
+     bodoslama kapatma ve koruma altına alma olayıdır. 
+   * Amaç: Sınıfın içindeki kritik verilerin, dışarıdan kuralsızca veya mantıksız 
+     değerlerle (Örn: notun -5, bakiyenin -500, yaşın 999 yapılması gibi) kirletilmesini engellemektir.
+
+2. PROPERTY (ÖZELLİK) YAPISI NEDİR?
+   * private yaptığımız o gizli verilere dışarıdan güvenli bir şekilde erişebilmek için 
+     kullandığımız AKILLI GÜVENLİK KAPILARIDIR.
+   * Property bir değişken değildir; içinde 'get' (okuma) ve 'set' (yazma) adında iki adet 
+     kod bloğu barındıran akıllı bir metot çatısıdır.
+
+3. 'get' VE 'set' BLOKLARININ TÜRKÇE MEALİ
+
+class Student
+    {
+        public int Id { get; set; }
+        public string Name{ get; set; }
+        public string Surname {
+            get { return Name; }
+            set
+            {
+                if (value != "")
+                {
+                    Name = value;
+                }
+            }
+        }
+        public string Department { get; set; }
+
+        private double gpa;
+        public double Gpa {
+            get { return gpa; }
+            set
+            {
+                if(value>= 0 && value <=100)
+                {
+                    gpa = value;
+                }
+
+            }
+        }
+
+        public Student(int id, string name, string surname, string department, double gpa)
+        {
+            Id = id;
+            Name = name;
+            Surname = surname;
+            Department = department;
+            Gpa = gpa;
+        }
+   * get { return gpa; } -> Birisi dışarıdan 'ogrenci.Gpa' diyerek değeri OKUMAK istediğinde,
+     arka taraftaki o gizli 'gpa' kasasının içindeki değeri dışarı fırlatır (return eder).
+   * set { ... } -> Birisi dışarıdan 'ogrenci.Gpa = 85.5;' diyerek yeni bir değer YAZMAK 
+     istediğinde bu kapı tetiklenir ve içerideki filtreleri (IF kontrolünü) çalıştırır.
+
+4. 'value' ANAHTAR KELİMESİ NEREDEN GELİYOR? MANTIĞI NE?
+   * 'value', C# dilinin içine önceden gömülmüş gizli bir anahtar kelimedir.
+   * Sen Main içinde 'ogrenci.Gpa = 85.5;' yazdığın an, o eşittir sağındaki '85.5' değeri 
+     otomatik olarak 'value' kelimesinin içine kaydolur.
+   * Sadece double için değil; 'int', 'string', 'bool' dahil C#'taki TÜM veri tiplerinin 
+     property yapılarında dışarıdan gelen değeri yakalayan ortak kutunun adı 'value'dur.
+
+5. "public string Name { get; private set; }" KISA YAZIMINDAN FARKI NE?
+   * Senin daha önce gördüğün o kısa yazım "Auto-Implemented Property" (Otomatik Özellik) olarak geçer.
+   * O kısa yazımda arka plandaki gizli kasayı ve value atamasını C# kendi hafızasında otomatik yapar.
+   * Ama ne zaman ki içeriye bir IF KOŞULU (mantıksal denetim) eklemek istersen, o kısa yazım patlar.
+   * Mecburen gizli kasayı (private field) elle yazıp, get ve set bloklarının içini bu dersteki gibi doldurman gerekir.
+
+=======================================================================================
+             FULL PROPERTY (ELLE DOLDURULAN YAPI) GÖRSEL KOD ŞEMASI (MANTIKSAL AKIŞ)
+=======================================================================================
+
+    // A. GİZLİ KASA (Field): Dış dünya bunu asla göremez. Verinin asıl saklandığı güvenli yer.
+    private double gpa; 
+
+    // B. GÜVENLİK KAPISI (Property): Dış dünyanın gördüğü ve etkileşime girdiği akıllı arayüz.
+    public double Gpa 
+    {
+        get 
+        { 
+            return gpa; // Kasadaki değeri dışarı ver.
+        }
+        set 
+        { 
+            // 1. Atama yapıldığı an (ogrenci.Gpa = 85.5) sağdaki değer 'value' olur. (value = 85.5)
+            // 2. Dedektör çalışır: Gelen değer mantıklı bir not aralığında mı?
+            if (value >= 0 && value <= 100) 
+            {
+                gpa = value; // 3. Şart doğruysa, gelen notu arkadaki o gizli 'gpa' kasasına yazdır/kilitle!
+            }
+            // 4. Eğer şart yanlışsa (Örn: -5 girildiyse) IF çalışmaz, kasa eski değerini korur, kirlenmez.
+        }
+    }
+
+=======================================================================================
+*/
+
+#endregion
 
 namespace _09_013_Class_Enum_Enumeration
 {
